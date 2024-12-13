@@ -185,7 +185,7 @@ def main():
             edgecolor="k",
             label="$\lambda_1$",
         )
-        plt.scatter(0, 0, c='red', s=100, edgecolor='k', label="Utopia (0, 0)")
+        plt.scatter(0, 0, c="red", s=100, edgecolor="k", label="Utopia (0, 0)")
 
         # Аннотирование точек на графике
         for i, lamb in enumerate(lambdas):
